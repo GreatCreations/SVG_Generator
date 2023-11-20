@@ -16,7 +16,7 @@ const document = window.document;
 registerWindow(window, document);
 
 // Define the path to your original SVG file
-const originalSvgPath = 'C:/Users/aandr/OneDrive/Pictures/Design/Great Creations/Press Kit/GC Logo.svg';
+const originalSvgPath = './GCLogo.svg';
 let originalSvg = '';
 try {
 originalSvg = fs.readFileSync(originalSvgPath, 'utf8');
