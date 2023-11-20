@@ -1,0 +1,33 @@
+{
+  "name": "svg-generator",
+  "version": "1.0.0",
+  "description": "A Node.js script to generate unique SVG files for NFTs",
+  "type": "module",
+  "main": "SVG_Generator.mjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreatCreations/SVG_Generator.git"
+  },
+  "keywords": [
+    "svg",
+    "nft",
+    "generator"
+  ],
+  "author": "Great Creations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreatCreations/SVG_Generator/issues"
+  },
+  "homepage": "https://github.com/GreatCreations/SVG_Generator#readme",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "svgdom": "^0.1.19",
+    "svgo": "^3.0.4"
+  }
+}

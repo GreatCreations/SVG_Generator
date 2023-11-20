@@ -301,7 +301,7 @@ const svgContent = generateRandomSvg();
 
 const optimizedSvgContent = optimizeSvg(svgContent);
 
-fs.writeFileSync(`C:/Great Creations/Projects/SVGs/${filename}`, optimizedSvgContent);
+fs.writeFileSync(`./SVGs/${filename}`, optimizedSvgContent);
 } catch (error) {
 console.error(`Error processing SVG #${i}:`, error);
 }
